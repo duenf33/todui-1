@@ -65,22 +65,27 @@ console.log(menu);
 
       case '2':
         console.log('Remove a todo');
+        removeTodo();
         break;
 
       case '3':
         console.log('Remove all completed todos');
+        removeCompleted();
         break;
 
       case '4':
         console.log('Toggle a todo\'s completion status');
+        toggleStatus();
         break;
 
       case '5':
         console.log('Toggle a todo\'s priority');
+        togglePriority();
         break;
 
       case '6':
         console.log('Quit');
+        quit();
         break;
     }
   }
