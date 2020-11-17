@@ -49,6 +49,7 @@ const togglePriority = function(todo){
 }
 const quit = function(todo){
   console.log('Good bye.')
+  interface.close();
 }
 console.log(menu);
 
@@ -89,5 +90,5 @@ console.log(menu);
         break;
     }
   }
-
+console.clear()
 interface.question('Make your selection below:\n', menuOption)
